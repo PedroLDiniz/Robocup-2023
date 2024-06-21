@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> P2G3 </title>
+
+    <!-- Chamada BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Chamada CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Chamada BS Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Chamada GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krona+One&family=Mooli&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="fonte-texto bg-black">
+
+            <!-- Menu de Navegação -->
+            <header class="bg-black">
+
+        <nav class="navbar fixed-top navbar-expand-lg bg-danger bg-gradient">
+            <div class="container-fluid fs-6">
+                <a class="navbar-brand fs-2 text-white" href="#"> <i
+                        class="bi bi-wrench-adjustable-circle text-white me-2 "></i>P2G3</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#SistemadeArmas"> Sistema de Armas </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#SistemaHardware"> Hardware </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#Videos"> Videos </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#QuemSomos"> Quem Somos </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#Next/Robocup"> Next / Robocup </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white mx-3" href="#SIRE"> SI e Resultados Empresariais </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            </header>
+
+    <!-- Informações -->
+    <main>
+
+            <!-- Section 1 - Carousel de Imagens  -->
+
+            <section class="w-100">
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="./assets/images/P2G3Photo1.png" class="d-block w-100" alt="FotoPrincipal">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="./assets/images/P2G3Photo2.png" class="d-block w-100" alt="Foto2">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="./assets/images/P2G3Photo3.png" class="d-block w-100" alt="Foto3">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="./assets/images/P2G3Photo4.png" class="d-block w-100" alt="Foto4">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="./assets/images/P2G3Photo5.png" class="d-block w-100" alt="Foto5">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            </section>
+
+            <!-- Section 2 - Explicação Hardware -->
+
+            <section id="SistemaHardware" class="container" >
+                
+            <div class="row d-flex align-items-center p-5 bg-black ">
+
+               <div class="col-md-6 row my-5 text-light">
+
+                   <h1 id="SistemaHardware"> Sistema Hardware </h1>
+                   
+                   <p> O nosso hardware do robô consiste em um sistema comandado pelo arduíno mega, onde temos os motores conectados a um Shield para os controlar, além disso temos o módulo bluetooth que é utilizado para o controle do robô por meio do bluetooth de algum dispositivo e não menos importante temos algumas peças auxiliares como por exemplo soquete de pilhas, led e protoboard. </p>
+               </div>
+
+
+               <div class="col-md-6 p-5">
+
+                   <img class=" img-fluid p-5 " src="./assets/images/P2G3Photo6.png" alt="FotoRobo">
+
+               </div>
+           </div>
+
+            </section>
+
+            <!-- Section 3 - Sistema de Armas -->
+
+            <section id="SistemadeArmas" class="bg-sistema_armas fw-bolder">
+
+                <div class="row d-flex p-5 m-5 ">
+
+                    <div class=" row p-2 my-5 text-light text-center">
+
+                        <h1 id="SistemadeArmas" class="my-5"> 
+                            Sistema de Armas: 
+                        </h1>
+                        <p> 
+                            O nosso sistema de arma consiste em sua ativação por meio do sensor chave fim de curso, quando ativada aciona o motor que movimenta por meio de um cilindro improvisado a arma em formato de tridente com agulhas em sua ponta, gerando uma arma com grande potencial de ataque. Após o tempo de acionamento a arma tem o seu retorno auxiliado por um elástico que gera estabilidade. 
+                        </p>
+                    
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Section 4 - Videos -->
+
+            <section id="Videos" class="container my-5">
+                
+                 <div>
+
+                    <div class="row text-center">
+    
+                        <h1 id="Videos" class="text-white my-2"> Construção do Robô </h1>
+                        
+                                <div class="ratio ratio-21x9">
+                                <iframe width=" 315" height="560" src="https://www.youtube.com/embed/apjnJrmUGxM" title="Youtube Shorts"
+                                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" frameborder="0"></iframe>
+
+                        
+                      </div>
+                      
+
+                    </div>
+
+
+                        <div class="row text-center">
+    
+                            <h1 class="text-white my-2"> Funcionamento do Robô </h1>
+    
+                            <div class="ratio ratio-21x9">
+                                <iframe width=" 315" height="560" src="https://www.youtube.com/embed/hBRwQCfNPIA" title="Youtube Shorts"
+                                allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" frameborder="0"></iframe>
+    
+                              </div>
+                        </div>
+
+                </div>
+
+            </section>
+
+            <!-- Section 5 - Informações do Grupo -->
+
+            <section id="QuemSomos">
+                
+                <div class="row d-flex align-items-center p-5 bg-grupo ">
+
+                   <div class="col-md-6 row text-center my-5 text-light">
+
+                       <h1  class="align-items-center"> Quem Somos: </h1>
+                       
+                   </div>
+
+                   <div class="col-md-6 row text-center my-5 text-light">
+
+                    <p> Olá, somos o P2G3 um grupo formado para concorrer na batalha da robocup. Nós cinco estamos aqui para  aprimorar nossos conhecimentos e aprender muito mais.
+
+                    </p>
+
+                    <h3 class="mt-4"> Representantes:</h3>
+                    <p> Gabriel Pozo, Giovane Lira, Gustavo Mendes, Pedro Lotério e Pedro Lucas.</p>
+                    
+                </div>
+
+
+               </div>
+
+            </section>
+
+            <!-- Section 6 - Robocup / Next -->
+
+            <section id="Next/Robocup" class="container" >
+                
+                <div class="row my-5">
+                    <div class="col-6 mx-auto" style="width: 25rem;">
+                        <div class="card bg-black text-white text-center">
+                            <img src="./assets/images/FIAPNEXT.png" class="card-img-top" alt="FIAPNEXT">
+                            <div class="card-body">
+                              
+                              <p class="card-text">O Next é o maior festival da FIAP, onde os alunos(as) lotam a arena com ideias e criações onde mostram toda a sua criatividade e ajudam a inovar e melhorar o mundo com tecnologia.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 mx-auto" style="width: 25rem;">
+                        <div class="card bg-black text-white text-center">
+                            <img src="./assets/images/RobocupFIAPP2G3.png" class="card-img-top" alt="RobocupP2G3">
+                            <div class="card-body">
+                              <p class="card-text">É a competição mais antiga na FIAP. Todos os alunos(as) que estão em seu primeiro ano do curso de Sistema de Informação devem construir robôs, onde o principal objetivo é estourar o balão do robô </p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+
+            </section>
+
+            <!-- Section 7 - Sistemas de Informação e Resultados Empresariais-->
+
+            <section id="SIRE" class="container">
+
+            <div class="row d-flex align-items-center bg-black">
+
+                <div class="text-center text-light my-5">
+
+                    <h1 class="my-5"> Sistemas de Informação e Resultados Empresariais: </h1>
+
+                </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               Apresentação do robô P2G3:
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                               <p>
+
+                                O projeto do robô, tem como base em uma competição de estourar balôes. O robô é controlado por um aplicativo, que obedece as funções colocadas dentro de um módulo arduíno, onde os sensores quando engatilhados ativam a arma.
+
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Para os Consumidores e Investidores:
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+
+                               <p>
+                                Consumidores:
+
+                               </p>
+
+                                <p>
+
+                                    Para os consumidores, nosso Robô P2G3 oferece locomoção, ataque e controle para manuseio direto do seu celular. Queremos que todos saibam como é prazeroso ter nosso robô ao seu lado , tornando suas vidas mais fáceis e divertidas.
+                                    
+                                </p>
+                                    
+                                <p>
+                                    Investidores:
+                                </p>
+                                    
+                                 <p>  
+                                    Estamos prontos para compartilhar nosso plano ambicioso e estratégico para o futuro. Queremos que você entenda por que investir em nosso Robô é uma oportunidade única. Navegue pelo site e mergulhe em fotos, projeções e vídeos que mostrem sucesso e potencial lucrativo para a venda de nossos projetos.
+                                
+                                </p>
+
+                                </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Nosso compromisso com você:
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              
+                                  
+                                  <p>
+                                      Capacidade de comunicação do projeto: 
+                                    
+                                 </p> 
+                                    
+                                    <p>
+
+                                    estamos comprometidos em comunicar de maneira clara e transparente o nosso projeto em todos os aspectos , desde a tecnologia de ponta até os benefícios práticos que oferecemos.
+                                      
+                                    </p>
+                                  
+
+                                    <p> 
+
+                                        Plano de Marketing Digital:
+                                        
+                                    </p>
+                                    
+                                    Demonstramos nosso compromisso com você através de canais de comunicação eficazes. Cuidamos de nossos clientes, distribuidores, assistência técnica e imprensa especializada para garantir que todos tenham acesso às informações de que precisa
+
+                                  
+
+                                    <p>
+
+                                    Plano Estatístico:
+                                   
+                                    </p>
+
+                                    <p>
+                                    
+                                        Utilizamos dados sólidos para projetar a demanda e atrair investidores e negócios. Acreditamos na transparência e em oferecer uma visão clara de nosso potencial de crescimento.
+
+                                    </p>
+
+                                    <p>
+
+                                    Organização das Relações com Investidores: 
+
+                                    </p>
+
+                                    <p>
+                                    
+                                    Explore nosso site e junte-se a nós na jornada para um futuro mais prazeroso e tecnologicamente avançado. Queremos que você tenha total confiança em sua parceria conosco.Estamos aqui para transformar a maneira como você vive e investe no futuro. O futuro é agora, e estamos animados para compartilhá-lo com você!
+
+                                    </p>
+                                  
+                                  
+                                
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                
+
+                
+
+            </div>
+
+
+            </section>
+
+            <!-- Section 8 - Formulários-->
+
+            <section class="container my-4 p-3 text-light">
+                    <h2> Contato </h2>
+                   
+                    <form id="Contato" name="Contato" method="get" action="">
+                        <div class="row">
+        
+                            <div class="col-md-4 col-lg-4 my-4" >
+                                <label for="Nome" class="form-label">Nome</label>
+                                <input type="text" id="Nome" name="Nome"
+                                class="form-control"
+                                placeholder="Ex: José Mario Silva "
+                                required minlength="10" maxlength="50">
+                            </div>
+        
+        
+                            <div class="col-md-4 col-lg-4 my-4 ">
+                                <label for="Email" class="form-label">Email</label>
+                                <input type="text" id="Email" name="Email"
+                                class="form-control" placeholder="Ex: JoséSilva@Gmail.com"
+                                maxlength="50" required>
+                            </div>
+        
+        
+                            <div class="col-md-4 col-lg-4 my-4 ">
+                                <label for="Assunto " class="form-label">Assunto </label>
+                                <select name="Assunto " id="Assunto " class="form-select">
+                                    <option value="0" disabled selected >Assutos </option>
+                                    <option value="1">Assuntos de notícias </option>
+                                    <option value="2">Perguntas Gerais</option>
+                                    <option value="3">Relatar um Problema </option>
+                                    <option value="4">Sugestões</option>
+                                    <option value="5"> Reclamações </option>
+        
+                                </select>
+                            </div>
+        
+                            <div class="col my-3">
+                                <label for="Mensagem" class="form-label">Mensagem </label>
+                                <textarea name="Mensagem" id="Mensagem"
+                                class="form-control"
+                                required
+                                placeholder="Ex: Escreva sua mensagem aqui "></textarea>
+                            </div>
+                            
+        
+                            <div class="my-4 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-outline-primary"> Enviar </button>
+                            </div>
+        
+                        </div>
+                    </form>
+        
+            </section>
+
+            
+    </main>
+
+            <!-- Rodapé -->
+            <footer class="bg-danger bg-gradient p-5">
+
+        <div class="row d-flex align-items-center ">
+
+            <div class="col-md-6 row text-center ">
+
+                <h1 class="text-light bi bi-wrench-adjustable-circle me-2 "></i> P2G3 </h1>
+                
+            </div>
+
+
+            <div class="col-md-6 row text-center my-3">
+
+                <h4 class="text-white"> Localização </h4>
+
+                <p> Centro Empresarial ABC - Av. Brasil - Sala 1 São Paulo/ SP - Brasil. </p>
+
+            </div>
+        </div>
+            
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+            </script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+:root{
+    --text-style--:font-family: 'Krona One', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fonte-texto{
+    font: var(--text-style--);
+}
+
+.textarea{
+    resize: none;
+    height: 160px;
+}
+
+.rodape{
+
+    padding: 25px;
+}
+
+.bg-sistema_armas{
+
+    background-image: url(./assets/images/P2G3Photo7.png);
+
+    background-size: cover;
+    min-height: 50vh;
+    background-attachment: fixed;
+
+}
+
+.bg-grupo{
+
+    background-image: url(./assets/images/GrupoP2G3.png);
+
+    background-size: cover;
+    min-height: 50vh;
+    background-attachment: fixed;
+
+}
